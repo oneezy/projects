@@ -1,0 +1,55 @@
+{
+	"name": "projects",
+	"description": "Projects for oneezy",
+	"version": "0.0.0",
+	"author": "Justin O'Neill",
+	"license": "UNLICENSED",
+	"private": true,
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/oneezy/projects.git"
+	},
+	"scripts": {
+		"preinstall": "pnpm exec inherit -u",
+		"postinstall": "pnpm exec ./.sh/symlinks.sh",
+		"dev": "turbo run dev --parallel",
+		"build": "turbo run build --parallel",
+		"package": "turbo run package --parallel",
+		"preview": "turbo run preview",
+		"lint": "turbo run lint",
+		"test": "turbo run test",
+		"prepare": "husky install",
+		"plop": "plop",
+		"symlinks": "pnpm exec ./.sh/symlinks.sh",
+		"clean": "git clean -fXd",
+		"untracked": "git clean -f -d",
+		"changeset": "changeset",
+		"version-packages": "changeset version"
+	},
+	"type": "module",
+	"workspaces": [
+		"apps/**",
+		"packages/**"
+	],
+	"dependencies": {
+		"@packages/ui": "workspace:*",
+		"@packages/config": "workspace:*",
+		"@packages/metadata": "workspace:*"
+	},
+	"devDependencies": {
+		"@packages/inherit": "workspace:*",
+		"@changesets/cli": "^2.25.2",
+		"@commitlint/cli": "^17.3.0",
+		"@commitlint/config-conventional": "^17.3.0",
+		"autoprefixer": "^10.4.13",
+		"husky": "^8.0.2",
+		"lint-staged": "^12.5.0",
+		"plop": "^3.1.1",
+		"prettier": "^2.8.1",
+		"svelte": "^3.54.0",
+		"svelte-preprocess": "^4.10.7",
+		"turbo": "latest",
+		"vite": "^4.0.0"
+	},
+	"packageManager": "pnpm@7.15.0"
+}

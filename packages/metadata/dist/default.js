@@ -1,0 +1,10 @@
+export const APP_URL = 'https://Oneezy.io';
+export const APP_NAME = 'Oneezy';
+export const APP_TITLE = 'Make Crypto Happen';
+export const APP_AUTHOR = "Scavenger Team"
+export const APP_SEPARATOR = '|';
+export const APP_DESCRIPTION = "Oneezy™ is your personal crypto trading co-pilot.";
+// export const FB_ID = '902427283166466';
+// export const FB_ADMINS = '1271441153';
+// export const DISCORD_HANDLE = 'oneezy';
+// export const TWITTER_HANDLE = 'oneeezy';

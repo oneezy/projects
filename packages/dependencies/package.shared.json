@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "@packages/ui": "workspace:*",
+    "@packages/config": "workspace:*",
+    "@packages/metadata": "workspace:*"
+  }
+}

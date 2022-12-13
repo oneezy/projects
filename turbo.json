@@ -1,0 +1,35 @@
+{
+  "$schema": "https://turbo.build/schema.json",
+  "pipeline": {
+
+		"build": {
+			"dependsOn": ["^build"],
+      "outputs": ["build/**", ".svelte-kit/**"],
+      "inputs": ["src/**/*.{html,js,svelte,svx,ts}", "../../packages/ui/**/*.{html,js,svelte,svx,ts}" ]
+		},
+
+		"lint": {
+			"outputs": []
+		},
+
+		"test": {
+      "outputs": [
+        "coverage/**"
+      ],
+      "dependsOn": []
+    },
+
+		"dev": {
+			"cache": false
+		},
+
+		"preview": {
+			"cache": true
+		},
+
+		"package": {
+			"outputs": ["package"]
+		}
+
+	}
+}

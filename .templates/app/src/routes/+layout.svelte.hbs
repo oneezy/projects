@@ -1,0 +1,15 @@
+<script>
+  import { Intro, App, Hero } from '@packages/ui'
+  import '@packages/ui/css/global.css'
+  import '${{name}}/app.css'
+</script>
+
+<!-- Layout -->
+<Intro>
+  <App id="{{name}}">
+    <Hero>
+      <svelte:fragment slot="title"><slot/></svelte:fragment>
+      <svelte:fragment slot="description">This {{name}} app is so dope</svelte:fragment>
+    </Hero>
+  </App>
+</Intro>

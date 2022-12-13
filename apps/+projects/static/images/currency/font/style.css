@@ -1,0 +1,1298 @@
+@font-face {
+  font-family: 'Oneezy';
+  src:
+    url('fonts/Oneezy.ttf?pewnty') format('truetype'),
+    url('fonts/Oneezy.woff?pewnty') format('woff'),
+    url('fonts/Oneezy.svg?pewnty#Oneezy') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="sb-"], [class*=" sb-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'Oneezy' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.sb-pac:before {
+  content: "\e900";
+}
+.sb-xbtc:before {
+  content: "\e902";
+}
+.sb-give:before {
+  content: "\e905";
+}
+.sb-abt:before {
+  content: "\e90b";
+}
+.sb-act:before {
+  content: "\e90d";
+}
+.sb-actn:before {
+  content: "\e90f";
+}
+.sb-ada:before {
+  content: "\e911";
+}
+.sb-ae:before {
+  content: "\e918";
+}
+.sb-aeon:before {
+  content: "\e91a";
+}
+.sb-aeur:before {
+  content: "\e91f";
+}
+.sb-agi:before {
+  content: "\e922";
+}
+.sb-agrs:before {
+  content: "\e925";
+}
+.sb-aion:before {
+  content: "\e927";
+}
+.sb-amb:before {
+  content: "\e92a";
+}
+.sb-amp:before {
+  content: "\e92c";
+}
+.sb-ant:before {
+  content: "\e92e";
+}
+.sb-apex:before {
+  content: "\e930";
+}
+.sb-appc:before {
+  content: "\e932";
+}
+.sb-ardr:before {
+  content: "\e934";
+}
+.sb-arg:before {
+  content: "\e936";
+}
+.sb-ark:before {
+  content: "\e939";
+}
+.sb-arn:before {
+  content: "\e93b";
+}
+.sb-ary:before {
+  content: "\e93d";
+}
+.sb-ast:before {
+  content: "\e93f";
+}
+.sb-atm:before {
+  content: "\e941";
+}
+.sb-atom:before {
+  content: "\e943";
+}
+.sb-audr:before {
+  content: "\e94b";
+}
+.sb-auto:before {
+  content: "\e94d";
+}
+.sb-aywa:before {
+  content: "\e94f";
+}
+.sb-bab:before {
+  content: "\e953";
+}
+.sb-bat:before {
+  content: "\e955";
+}
+.sb-bay:before {
+  content: "\e957";
+}
+.sb-bcbc:before {
+  content: "\e959";
+}
+.sb-bcc:before {
+  content: "\e95b";
+}
+.sb-bcd:before {
+  content: "\e95d";
+}
+.sb-bch:before {
+  content: "\e95f";
+}
+.sb-bcio:before {
+  content: "\e961";
+}
+.sb-bcn:before {
+  content: "\e963";
+}
+.sb-bco:before {
+  content: "\e965";
+}
+.sb-bcpt:before {
+  content: "\e967";
+}
+.sb-bdl:before {
+  content: "\e969";
+}
+.sb-beam:before {
+  content: "\e96b";
+}
+.sb-bela:before {
+  content: "\e96d";
+}
+.sb-bix:before {
+  content: "\e96f";
+}
+.sb-blcn:before {
+  content: "\e971";
+}
+.sb-blk:before {
+  content: "\e973";
+}
+.sb-block:before {
+  content: "\e975";
+}
+.sb-blz:before {
+  content: "\e978";
+}
+.sb-bnb:before {
+  content: "\e97a";
+}
+.sb-bnt:before {
+  content: "\e97c";
+}
+.sb-bnty:before {
+  content: "\e97e";
+}
+.sb-booty:before {
+  content: "\e980";
+}
+.sb-bos:before {
+  content: "\e982";
+}
+.sb-bpt:before {
+  content: "\e984";
+}
+.sb-bq:before {
+  content: "\e986";
+}
+.sb-brd:before {
+  content: "\e988";
+}
+.sb-bsd:before {
+  content: "\e98a";
+}
+.sb-bsv:before {
+  content: "\e98c";
+}
+.sb-btc:before {
+  content: "\e98e";
+}
+.sb-btcd:before {
+  content: "\e990";
+}
+.sb-btch:before {
+  content: "\e992";
+}
+.sb-btcp:before {
+  content: "\e996";
+}
+.sb-btcz:before {
+  content: "\e998";
+}
+.sb-btdx:before {
+  content: "\e99a";
+}
+.sb-btg:before {
+  content: "\e99d";
+}
+.sb-btm:before {
+  content: "\e99f";
+}
+.sb-bts:before {
+  content: "\e9a1";
+}
+.sb-btt:before {
+  content: "\e9a3";
+}
+.sb-btx:before {
+  content: "\e9a8";
+}
+.sb-burst:before {
+  content: "\e9aa";
+}
+.sb-call:before {
+  content: "\e9ac";
+}
+.sb-cc:before {
+  content: "\e9af";
+}
+.sb-cdn:before {
+  content: "\e9b2";
+}
+.sb-cdt:before {
+  content: "\e9b4";
+}
+.sb-cenz:before {
+  content: "\e9b6";
+}
+.sb-chain:before {
+  content: "\e9b8";
+}
+.sb-chat:before {
+  content: "\e9bb";
+}
+.sb-chips:before {
+  content: "\e9bd";
+}
+.sb-cix:before {
+  content: "\e9bf";
+}
+.sb-clam:before {
+  content: "\e9c2";
+}
+.sb-cloak:before {
+  content: "\e9c4";
+}
+.sb-cmm:before {
+  content: "\e9c6";
+}
+.sb-cmt:before {
+  content: "\e9c8";
+}
+.sb-cnd:before {
+  content: "\e9ca";
+}
+.sb-cnx:before {
+  content: "\e9cc";
+}
+.sb-cny:before {
+  content: "\e9cf";
+}
+.sb-cob:before {
+  content: "\e9d1";
+}
+.sb-colx:before {
+  content: "\e9d3";
+}
+.sb-coqui:before {
+  content: "\e9d5";
+}
+.sb-cred:before {
+  content: "\e9d7";
+}
+.sb-crpt:before {
+  content: "\e9d9";
+}
+.sb-crw:before {
+  content: "\e9db";
+}
+.sb-cs:before {
+  content: "\e9dd";
+}
+.sb-ctr:before {
+  content: "\e9df";
+}
+.sb-ctxc:before {
+  content: "\e9e1";
+}
+.sb-cvc:before {
+  content: "\e9e5";
+}
+.sb-d:before {
+  content: "\e9e7";
+}
+.sb-dai:before {
+  content: "\e9e9";
+}
+.sb-dash:before {
+  content: "\e9eb";
+}
+.sb-dat:before {
+  content: "\e9ee";
+}
+.sb-data:before {
+  content: "\e9f0";
+}
+.sb-dbc:before {
+  content: "\e9f2";
+}
+.sb-dcn:before {
+  content: "\e9f4";
+}
+.sb-dcr:before {
+  content: "\e9f6";
+}
+.sb-deez:before {
+  content: "\e9f8";
+}
+.sb-dent:before {
+  content: "\e9fa";
+}
+.sb-dew:before {
+  content: "\e9fc";
+}
+.sb-dgb:before {
+  content: "\e9fe";
+}
+.sb-dgd:before {
+  content: "\ea00";
+}
+.sb-dlt:before {
+  content: "\ea02";
+}
+.sb-dnt:before {
+  content: "\ea04";
+}
+.sb-dock:before {
+  content: "\ea06";
+}
+.sb-doge:before {
+  content: "\ea08";
+}
+.sb-drgn:before {
+  content: "\ea0a";
+}
+.sb-drop:before {
+  content: "\ea0d";
+}
+.sb-dta:before {
+  content: "\ea12";
+}
+.sb-dth:before {
+  content: "\ea14";
+}
+.sb-dtr:before {
+  content: "\ea17";
+}
+.sb-ebst:before {
+  content: "\ea1a";
+}
+.sb-eca:before {
+  content: "\ea1c";
+}
+.sb-edg:before {
+  content: "\ea1e";
+}
+.sb-edo:before {
+  content: "\ea20";
+}
+.sb-edoge:before {
+  content: "\ea22";
+}
+.sb-ela:before {
+  content: "\ea24";
+}
+.sb-elec:before {
+  content: "\ea2b";
+}
+.sb-elf:before {
+  content: "\ea2f";
+}
+.sb-elix:before {
+  content: "\ea31";
+}
+.sb-ella:before {
+  content: "\ea36";
+}
+.sb-emc:before {
+  content: "\ea38";
+}
+.sb-emc2:before {
+  content: "\ea3a";
+}
+.sb-eng:before {
+  content: "\ea3e";
+}
+.sb-enj:before {
+  content: "\ea40";
+}
+.sb-entrp:before {
+  content: "\ea42";
+}
+.sb-eon:before {
+  content: "\ea44";
+}
+.sb-eop:before {
+  content: "\ea47";
+}
+.sb-eos:before {
+  content: "\ea49";
+}
+.sb-eqli:before {
+  content: "\ea4a";
+}
+.sb-equa:before {
+  content: "\ea4c";
+}
+.sb-etc:before {
+  content: "\ea4e";
+}
+.sb-eth:before {
+  content: "\ea53";
+}
+.sb-ethos:before {
+  content: "\ea5a";
+}
+.sb-etn:before {
+  content: "\ea5d";
+}
+.sb-etp:before {
+  content: "\ea5f";
+}
+.sb-eur:before {
+  content: "\ea61";
+}
+.sb-evx:before {
+  content: "\ea63";
+}
+.sb-exmo:before {
+  content: "\ea65";
+}
+.sb-exp:before {
+  content: "\ea67";
+}
+.sb-fair:before {
+  content: "\ea69";
+}
+.sb-fct:before {
+  content: "\ea6b";
+}
+.sb-fil:before {
+  content: "\ea6d";
+}
+.sb-fjc:before {
+  content: "\ea6f";
+}
+.sb-fldc:before {
+  content: "\ea73";
+}
+.sb-flo:before {
+  content: "\ea75";
+}
+.sb-fsn:before {
+  content: "\ea77";
+}
+.sb-ftc:before {
+  content: "\ea79";
+}
+.sb-fuel:before {
+  content: "\ea7b";
+}
+.sb-fun:before {
+  content: "\ea7d";
+}
+.sb-game:before {
+  content: "\ea7f";
+}
+.sb-gas:before {
+  content: "\ea81";
+}
+.sb-gbp:before {
+  content: "\ea83";
+}
+.sb-gbx:before {
+  content: "\ea85";
+}
+.sb-gbyte:before {
+  content: "\ea87";
+}
+.sb-generic:before {
+  content: "\ea89";
+}
+.sb-gin:before {
+  content: "\ea8b";
+}
+.sb-glxt:before {
+  content: "\ea8e";
+}
+.sb-gmr:before {
+  content: "\ea90";
+}
+.sb-gno:before {
+  content: "\ea95";
+}
+.sb-gnt:before {
+  content: "\ea97";
+}
+.sb-gold:before {
+  content: "\ea99";
+}
+.sb-grc:before {
+  content: "\ea9b";
+}
+.sb-grin:before {
+  content: "\ea9d";
+}
+.sb-grs:before {
+  content: "\ea9f";
+}
+.sb-gsc:before {
+  content: "\eaa1";
+}
+.sb-gto:before {
+  content: "\eaa3";
+}
+.sb-gup:before {
+  content: "\eaa5";
+}
+.sb-gusd:before {
+  content: "\eaa7";
+}
+.sb-gvt:before {
+  content: "\eaa9";
+}
+.sb-gxs:before {
+  content: "\eaab";
+}
+.sb-gzr:before {
+  content: "\eaad";
+}
+.sb-hight:before {
+  content: "\eab2";
+}
+.sb-hodl:before {
+  content: "\eab4";
+}
+.sb-hot:before {
+  content: "\eab6";
+}
+.sb-hpb:before {
+  content: "\eab8";
+}
+.sb-hsr:before {
+  content: "\eabb";
+}
+.sb-ht:before {
+  content: "\eabd";
+}
+.sb-html:before {
+  content: "\eac0";
+}
+.sb-huc:before {
+  content: "\eac2";
+}
+.sb-hush:before {
+  content: "\eac4";
+}
+.sb-icn:before {
+  content: "\eac6";
+}
+.sb-icx:before {
+  content: "\eac8";
+}
+.sb-ignis:before {
+  content: "\eaca";
+}
+.sb-ilk:before {
+  content: "\eacc";
+}
+.sb-ink:before {
+  content: "\eace";
+}
+.sb-ins:before {
+  content: "\ead0";
+}
+.sb-ion:before {
+  content: "\ead3";
+}
+.sb-iop:before {
+  content: "\ead5";
+}
+.sb-iost:before {
+  content: "\ead9";
+}
+.sb-iotx:before {
+  content: "\eadb";
+}
+.sb-iq:before {
+  content: "\eaf3";
+}
+.sb-itc:before {
+  content: "\eaf5";
+}
+.sb-jnt:before {
+  content: "\eaf7";
+}
+.sb-jpy:before {
+  content: "\eaf9";
+}
+.sb-kcs:before {
+  content: "\eafb";
+}
+.sb-kin:before {
+  content: "\eafd";
+}
+.sb-kmd:before {
+  content: "\eaff";
+}
+.sb-knc:before {
+  content: "\eb02";
+}
+.sb-krb:before {
+  content: "\eb04";
+}
+.sb-lbc:before {
+  content: "\eb06";
+}
+.sb-lend:before {
+  content: "\eb08";
+}
+.sb-link:before {
+  content: "\eb0a";
+}
+.sb-lkk:before {
+  content: "\eb0c";
+}
+.sb-loom:before {
+  content: "\eb0e";
+}
+.sb-lpt:before {
+  content: "\eb12";
+}
+.sb-lrc:before {
+  content: "\eb14";
+}
+.sb-lsk:before {
+  content: "\eb16";
+}
+.sb-ltc:before {
+  content: "\eb18";
+}
+.sb-lun:before {
+  content: "\eb1a";
+}
+.sb-maid:before {
+  content: "\eb1c";
+}
+.sb-mana:before {
+  content: "\eb20";
+}
+.sb-matic:before {
+  content: "\eb22";
+}
+.sb-mcap:before {
+  content: "\eb24";
+}
+.sb-mco:before {
+  content: "\eb26";
+}
+.sb-mda:before {
+  content: "\eb28";
+}
+.sb-mds:before {
+  content: "\eb2a";
+}
+.sb-med:before {
+  content: "\eb2c";
+}
+.sb-meetone:before {
+  content: "\eb2e";
+}
+.sb-mft:before {
+  content: "\eb31";
+}
+.sb-miota:before {
+  content: "\eb33";
+}
+.sb-mith:before {
+  content: "\eb35";
+}
+.sb-mkr:before {
+  content: "\eb37";
+}
+.sb-mln:before {
+  content: "\eb39";
+}
+.sb-mnx:before {
+  content: "\eb3b";
+}
+.sb-mnz:before {
+  content: "\eb3d";
+}
+.sb-moac:before {
+  content: "\eb3f";
+}
+.sb-mod:before {
+  content: "\eb41";
+}
+.sb-mona:before {
+  content: "\eb44";
+}
+.sb-msr:before {
+  content: "\eb46";
+}
+.sb-mth:before {
+  content: "\eb49";
+}
+.sb-mtl:before {
+  content: "\eb4e";
+}
+.sb-music:before {
+  content: "\eb50";
+}
+.sb-mzc:before {
+  content: "\eb52";
+}
+.sb-nano:before {
+  content: "\eb54";
+}
+.sb-nas:before {
+  content: "\eb56";
+}
+.sb-nav:before {
+  content: "\eb58";
+}
+.sb-ncash:before {
+  content: "\eb5a";
+}
+.sb-ndz:before {
+  content: "\eb5c";
+}
+.sb-nebl:before {
+  content: "\eb5e";
+}
+.sb-neo:before {
+  content: "\eb60";
+}
+.sb-neos:before {
+  content: "\eb62";
+}
+.sb-neu:before {
+  content: "\eb64";
+}
+.sb-nexo:before {
+  content: "\eb67";
+}
+.sb-ngc:before {
+  content: "\eb6e";
+}
+.sb-nio:before {
+  content: "\eb70";
+}
+.sb-nlc2:before {
+  content: "\eb72";
+}
+.sb-nlg:before {
+  content: "\eb74";
+}
+.sb-nmc:before {
+  content: "\eb76";
+}
+.sb-npxs:before {
+  content: "\eb78";
+}
+.sb-nuls:before {
+  content: "\eb7b";
+}
+.sb-nxs:before {
+  content: "\eb7d";
+}
+.sb-nxt:before {
+  content: "\eb7f";
+}
+.sb-oax:before {
+  content: "\eb81";
+}
+.sb-ok:before {
+  content: "\eb83";
+}
+.sb-omg:before {
+  content: "\eb85";
+}
+.sb-omni:before {
+  content: "\eb87";
+}
+.sb-ong:before {
+  content: "\eb89";
+}
+.sb-ont:before {
+  content: "\eb8d";
+}
+.sb-oot:before {
+  content: "\eb8f";
+}
+.sb-ost:before {
+  content: "\eb91";
+}
+.sb-ox:before {
+  content: "\eb93";
+}
+.sb-part:before {
+  content: "\eb95";
+}
+.sb-pasc:before {
+  content: "\eb97";
+}
+.sb-pasl:before {
+  content: "\eb99";
+}
+.sb-pax:before {
+  content: "\eb9b";
+}
+.sb-pay:before {
+  content: "\eb9d";
+}
+.sb-payx:before {
+  content: "\eb9f";
+}
+.sb-pink:before {
+  content: "\eba2";
+}
+.sb-pirl:before {
+  content: "\eba5";
+}
+.sb-pivx:before {
+  content: "\eba7";
+}
+.sb-plr:before {
+  content: "\eba9";
+}
+.sb-poa:before {
+  content: "\ebab";
+}
+.sb-poe:before {
+  content: "\ebad";
+}
+.sb-polis:before {
+  content: "\ebaf";
+}
+.sb-poly:before {
+  content: "\ebb1";
+}
+.sb-pot:before {
+  content: "\ebb3";
+}
+.sb-powr:before {
+  content: "\ebb5";
+}
+.sb-ppc:before {
+  content: "\ebb7";
+}
+.sb-ppp:before {
+  content: "\ebb9";
+}
+.sb-ppt:before {
+  content: "\ebbb";
+}
+.sb-pre:before {
+  content: "\ebbd";
+}
+.sb-prl:before {
+  content: "\ebc1";
+}
+.sb-pungo:before {
+  content: "\ebc3";
+}
+.sb-pura:before {
+  content: "\ebc5";
+}
+.sb-qash:before {
+  content: "\ebc7";
+}
+.sb-qiwi:before {
+  content: "\ebc9";
+}
+.sb-qlc:before {
+  content: "\ebcb";
+}
+.sb-qrl:before {
+  content: "\ebcd";
+}
+.sb-qsp:before {
+  content: "\ebcf";
+}
+.sb-qtum:before {
+  content: "\ebd1";
+}
+.sb-r:before {
+  content: "\ebd3";
+}
+.sb-rads:before {
+  content: "\ebd5";
+}
+.sb-rap:before {
+  content: "\ebd7";
+}
+.sb-rcn:before {
+  content: "\ebd9";
+}
+.sb-rdd:before {
+  content: "\ebdb";
+}
+.sb-rdn:before {
+  content: "\ebde";
+}
+.sb-ren:before {
+  content: "\ebe0";
+}
+.sb-rep:before {
+  content: "\ebe2";
+}
+.sb-req:before {
+  content: "\ebe4";
+}
+.sb-rhoc:before {
+  content: "\ebe6";
+}
+.sb-ric:before {
+  content: "\ebe8";
+}
+.sb-rise:before {
+  content: "\ebea";
+}
+.sb-rlc:before {
+  content: "\ebec";
+}
+.sb-rpx:before {
+  content: "\ebee";
+}
+.sb-rub:before {
+  content: "\ebf0";
+}
+.sb-rvn:before {
+  content: "\ebf2";
+}
+.sb-ryo:before {
+  content: "\ebf4";
+}
+.sb-safe:before {
+  content: "\ebf7";
+}
+.sb-salt:before {
+  content: "\ebfa";
+}
+.sb-san:before {
+  content: "\ebfc";
+}
+.sb-sbd:before {
+  content: "\ebfe";
+}
+.sb-sberbank:before {
+  content: "\ec00";
+}
+.sb-sc:before {
+  content: "\ec02";
+}
+.sb-shift:before {
+  content: "\ec04";
+}
+.sb-sib:before {
+  content: "\ec09";
+}
+.sb-sky:before {
+  content: "\ec0b";
+}
+.sb-slr:before {
+  content: "\ec0d";
+}
+.sb-sls:before {
+  content: "\ec0f";
+}
+.sb-smart:before {
+  content: "\ec11";
+}
+.sb-sngls:before {
+  content: "\ec13";
+}
+.sb-snm:before {
+  content: "\ec15";
+}
+.sb-snt:before {
+  content: "\ec17";
+}
+.sb-soc:before {
+  content: "\ec19";
+}
+.sb-spank:before {
+  content: "\ec1c";
+}
+.sb-sphtx:before {
+  content: "\ec1e";
+}
+.sb-srn:before {
+  content: "\ec20";
+}
+.sb-stak:before {
+  content: "\ec22";
+}
+.sb-start:before {
+  content: "\ec24";
+}
+.sb-steem:before {
+  content: "\ec26";
+}
+.sb-storj:before {
+  content: "\ec28";
+}
+.sb-storm:before {
+  content: "\ec2a";
+}
+.sb-stq:before {
+  content: "\ec2c";
+}
+.sb-strat:before {
+  content: "\ec2e";
+}
+.sb-sub:before {
+  content: "\ec30";
+}
+.sb-sumo:before {
+  content: "\ec32";
+}
+.sb-sys:before {
+  content: "\ec34";
+}
+.sb-taas:before {
+  content: "\ec36";
+}
+.sb-tau:before {
+  content: "\ec38";
+}
+.sb-tbx:before {
+  content: "\ec3a";
+}
+.sb-tel:before {
+  content: "\ec3c";
+}
+.sb-ten:before {
+  content: "\ec3e";
+}
+.sb-tern:before {
+  content: "\ec40";
+}
+.sb-tgch:before {
+  content: "\ec42";
+}
+.sb-theta:before {
+  content: "\ec45";
+}
+.sb-tix:before {
+  content: "\ec47";
+}
+.sb-tkn:before {
+  content: "\ec49";
+}
+.sb-tks:before {
+  content: "\ec4b";
+}
+.sb-tnb:before {
+  content: "\ec4e";
+}
+.sb-tnc:before {
+  content: "\ec50";
+}
+.sb-tnt:before {
+  content: "\ec52";
+}
+.sb-tomo:before {
+  content: "\ec54";
+}
+.sb-tpay:before {
+  content: "\ec56";
+}
+.sb-trig:before {
+  content: "\ec5a";
+}
+.sb-trtl:before {
+  content: "\ec5c";
+}
+.sb-trx:before {
+  content: "\ec5f";
+}
+.sb-tusd:before {
+  content: "\ec61";
+}
+.sb-tzc:before {
+  content: "\ec65";
+}
+.sb-ubq:before {
+  content: "\ec67";
+}
+.sb-unity:before {
+  content: "\ec6a";
+}
+.sb-usd:before {
+  content: "\ec6d";
+}
+.sb-usdc:before {
+  content: "\ec6f";
+}
+.sb-usdt:before {
+  content: "\ec71";
+}
+.sb-utk:before {
+  content: "\ec73";
+}
+.sb-veri:before {
+  content: "\ec75";
+}
+.sb-vet:before {
+  content: "\ec77";
+}
+.sb-via:before {
+  content: "\ec79";
+}
+.sb-vib:before {
+  content: "\ec7b";
+}
+.sb-vibe:before {
+  content: "\ec7d";
+}
+.sb-vivo:before {
+  content: "\ec7f";
+}
+.sb-vrc:before {
+  content: "\ec81";
+}
+.sb-vrsc:before {
+  content: "\ec83";
+}
+.sb-vtc:before {
+  content: "\ec86";
+}
+.sb-vtho:before {
+  content: "\ec88";
+}
+.sb-wabi:before {
+  content: "\ec8b";
+}
+.sb-wan:before {
+  content: "\ec8d";
+}
+.sb-waves:before {
+  content: "\ec8f";
+}
+.sb-wax:before {
+  content: "\ec91";
+}
+.sb-wgr:before {
+  content: "\ec93";
+}
+.sb-wicc:before {
+  content: "\ec95";
+}
+.sb-wings:before {
+  content: "\ec98";
+}
+.sb-wpr:before {
+  content: "\ec9c";
+}
+.sb-wtc:before {
+  content: "\ec9e";
+}
+.sb-x:before {
+  content: "\eca1";
+}
+.sb-xas:before {
+  content: "\eca5";
+}
+.sb-xbc:before {
+  content: "\eca7";
+}
+.sb-xbp:before {
+  content: "\eca9";
+}
+.sb-xby:before {
+  content: "\ecab";
+}
+.sb-xcp:before {
+  content: "\ecad";
+}
+.sb-xdn:before {
+  content: "\ecaf";
+}
+.sb-xem:before {
+  content: "\ecb1";
+}
+.sb-xin:before {
+  content: "\ecb3";
+}
+.sb-xlm:before {
+  content: "\ecb5";
+}
+.sb-xmcc:before {
+  content: "\ecb7";
+}
+.sb-xmg:before {
+  content: "\ecb9";
+}
+.sb-xmo:before {
+  content: "\ecbb";
+}
+.sb-xmr:before {
+  content: "\ecbf";
+}
+.sb-xmy:before {
+  content: "\ecc1";
+}
+.sb-xp:before {
+  content: "\ecc3";
+}
+.sb-xpa:before {
+  content: "\ecc5";
+}
+.sb-xpm:before {
+  content: "\ecc7";
+}
+.sb-xrp:before {
+  content: "\ecc9";
+}
+.sb-xsg:before {
+  content: "\eccb";
+}
+.sb-xtz:before {
+  content: "\eccd";
+}
+.sb-xuc:before {
+  content: "\eccf";
+}
+.sb-xvc:before {
+  content: "\ecd1";
+}
+.sb-xvg:before {
+  content: "\ecd3";
+}
+.sb-xzc:before {
+  content: "\ecd6";
+}
+.sb-yoyow:before {
+  content: "\ecd8";
+}
+.sb-zcl:before {
+  content: "\ecda";
+}
+.sb-zec:before {
+  content: "\ecdc";
+}
+.sb-zel:before {
+  content: "\ecde";
+}
+.sb-zen:before {
+  content: "\ece0";
+}
+.sb-zest:before {
+  content: "\ece4";
+}
+.sb-zil:before {
+  content: "\ece8";
+}
+.sb-zilla:before {
+  content: "\ecec";
+}
+.sb-zrx:before {
+  content: "\ecee";
+}
