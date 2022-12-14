@@ -14,6 +14,7 @@ const config = {
       $project: resolve('../../apps/+projects/src'),
       
       // Apps (plop added)
+      $4storage: resolve('../../apps/4storage/src'),
       $docs: resolve('../../apps/docs/src'),
       $site: resolve('../../apps/site/src')
     },

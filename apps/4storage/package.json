@@ -1,6 +1,6 @@
 {
-  "name": "@apps/site",
-  "description": "A monorepo for all things oneezy.",
+  "name": "@apps/4storage",
+  "description": "This is the description for 4storage",
   "author": "Justin O'Neill",
   "version": "0.0.0",
   "inherits": [
@@ -8,20 +8,20 @@
     "@packages/dependencies/package.shared.json"
   ],
   "scripts": {
-    "dev": "vite dev --port 3001",
+    "dev": "vite dev --port 3927",
     "build": "vite build",
-    "preview": "vite preview --port 5001",
+    "preview": "vite preview --port 3873",
     "package": "svelte-kit package",
-    "check": "svelte-kit sync && svelte-check",
-    "check:watch": "svelte-kit sync && svelte-check --watch",
+    "check": "svelte-check",
+    "check:watch": "svelte-check --watch",
     "lint": "prettier --ignore-path .gitignore --check --plugin-search-dir=. . && eslint --ignore-path .gitignore .",
     "format": "prettier --ignore-path .gitignore --write --plugin-search-dir=. .",
     "preinstall": "pnpm exec inherit -u"
   },
   "dependencies": {
+    "@packages/ui": "workspace:*",
     "@packages/config": "workspace:*",
     "@packages/metadata": "workspace:*",
-    "@packages/ui": "workspace:*",
     "svelte-accessible-accordion": "^2.1.0",
     "svrollbar": "^0.12.0"
   },

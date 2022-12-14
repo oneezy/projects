@@ -61,6 +61,7 @@ creating $1 symlinks ...
 }
 
 # create symlinks
+create_symlinks "4storage"
 create_symlinks "docs"
 create_symlinks "site"
 

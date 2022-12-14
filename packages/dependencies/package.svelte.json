@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "preinstall": "pnpm exec inherit -u",
-    "start": "node ./build"
+    "preinstall": "pnpm exec inherit -u"
   },
   "devDependencies": {
     "@sveltejs/adapter-auto": "next",
