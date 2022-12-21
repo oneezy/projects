@@ -1,8 +1,8 @@
 <script>
 	import { onMount, onDestroy } from 'svelte'
-	import { Content, CountUp, viewport } from '@packages/ui'
+	import { Content, CountUp, viewport } from '@oneezy/ui'
 	// import { env } from '$env/dynamic/public'
-	import { describe } from '@packages/ui'
+	import { describe } from '@oneezy/ui'
   import { stats } from '../stores/stats'
 
 	async function fetchData() {

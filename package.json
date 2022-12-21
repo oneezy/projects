@@ -22,17 +22,15 @@
 		"plop": "plop",
 		"symlinks": "pnpm exec ./.sh/symlinks.sh",
 		"clean": "git clean -fXd",
-		"untracked": "git clean -f -d",
+		"clean:un": "git clean -f -d",
+		"clean:sub": "git clean -f -X",
+
 		"changeset": "changeset",
 		"version-packages": "changeset version"
 	},
 	"type": "module",
-	"workspaces": [
-		"apps/**",
-		"packages/**"
-	],
 	"dependencies": {
-		"@packages/ui": "workspace:*",
+		"@oneezy/ui": "workspace:*",
 		"@packages/config": "workspace:*",
 		"@packages/metadata": "workspace:*"
 	},

@@ -2,7 +2,7 @@
 	import { APP_NAME, APP_TITLE, APP_SEPARATOR, APP_DESCRIPTION } from '@packages/metadata'
 
 	import { page } from '$app/stores'
-	import { App } from '@packages/ui'
+	import { App } from '@oneezy/ui'
 	import Hero from '$site/lib/Hero.svelte'
 	import Features from '$site/lib/Features.svelte'
 	import Pricing from '$site/lib/Pricing.svelte'

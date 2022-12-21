@@ -1,5 +1,5 @@
 <script>
-  import { Container, Content, Button, Img } from '@packages/ui';
+  import { Container, Content, Button, Img } from '@oneezy/ui';
   
   const stories = [
     // { id: 1, name: 'vitebook', repo: 'https://github.com/vitebook/vitebook', demo: 'https://vitebook.dev' },

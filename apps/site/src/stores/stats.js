@@ -1,5 +1,5 @@
 import { derived } from 'svelte/store'
-import { describe } from '@packages/ui'
+import { describe } from '@oneezy/ui'
 
 // create a derived store from the describe store
 export const stats = derived(describe, $describe => {

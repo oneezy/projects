@@ -1,5 +1,5 @@
 <script>
-	import { BG, Section, Container, Title, Button } from '@packages/ui'
+	import { BG, Section, Container, Title, Button } from '@oneezy/ui'
 </script>
 
 <Section id="cta" class="">

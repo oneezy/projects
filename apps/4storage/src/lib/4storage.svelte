@@ -1,5 +1,5 @@
 <script>
-  import { Button } from '@packages/ui';
+  import { Button } from '@oneezy/ui';
 </script>
 
 <p>I'm a component for the 4storage app! I don't do anything though.</p>

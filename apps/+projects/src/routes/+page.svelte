@@ -1,7 +1,7 @@
 <script>
 	import { APP_NAME, APP_TITLE, APP_SEPARATOR, APP_AUTHOR, APP_DESCRIPTION } from '@packages/metadata'
 	import { page } from '$app/stores'
-  import { Intro } from '@packages/ui';
+  import { Intro } from '@oneezy/ui';
   import Hero from '$project/lib/Hero.svelte'
 </script>
 

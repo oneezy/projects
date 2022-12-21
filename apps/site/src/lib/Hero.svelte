@@ -1,7 +1,7 @@
 <script>
   import { fly } from 'svelte/transition';
   import { APP_NAME } from '@packages/metadata';
-  import { Section, mediaQuery, Container, Content, Button, TextAnimate, Stats } from '@packages/ui';
+  import { Section, mediaQuery, Container, Content, Button, TextAnimate, Stats } from '@oneezy/ui';
   
 	const lg = mediaQuery('(min-width: 0px) and (max-width: 1024px)')
 </script>

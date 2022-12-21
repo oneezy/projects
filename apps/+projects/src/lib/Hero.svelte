@@ -1,5 +1,5 @@
 <script>
-  import { Section, Container, Content, TextAnimate, Title } from '@packages/ui';
+  import { Section, Container, Content, TextAnimate, Title } from '@oneezy/ui';
 </script>
 
 <Section {...$$restProps} class="h-screen pt-20 md:pt-32 md:pb-[10vh]">

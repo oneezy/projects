@@ -19,7 +19,7 @@
     "preinstall": "pnpm exec inherit -u"
   },
   "dependencies": {
-    "@packages/ui": "workspace:*",
+    "@oneezy/ui": "workspace:*",
     "@packages/config": "workspace:*",
     "@packages/metadata": "workspace:*",
     "svelte-accessible-accordion": "^2.1.0",

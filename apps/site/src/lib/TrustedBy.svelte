@@ -1,6 +1,6 @@
 <script>
-	import { Section, Container, Title, Icon } from '@packages/ui'
-	import { exchanges } from '@packages/ui/src/components/atoms/Icon/icons'
+	import { Section, Container, Title, Icon } from '@oneezy/ui'
+	import { exchanges } from '@oneezy/ui/src/components/atoms/Icon/icons'
 
   let comingsoon;
 </script>

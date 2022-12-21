@@ -1,5 +1,5 @@
 <script>
-	import { Section, Container, Content, Card, Title, Button } from '@packages/ui'
+	import { Section, Container, Content, Card, Title, Button } from '@oneezy/ui'
 	import { onMount } from 'svelte'
 	import { testimonials } from '../stores/testimonials.js'
 

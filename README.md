@@ -138,7 +138,7 @@ pnpm plop component
 3. use component in an app `./apps/site/src/routes/index.svelte`
 ```html
 <script>
-  import { MyComponent } from '@packages/ui';
+  import { MyComponent } from '@oneezy/ui';
 </script>
 
 <MyComponent />
@@ -151,7 +151,7 @@ pnpm plop component
 3. go to `components` folder and create `package.json` with proper namespace
 ```json
 {
-  "name": "@packages/ui",
+  "name": "@oneezy/ui",
   "version": "0.0.0",
   "type": "module",
   "main": "index.js"
@@ -160,13 +160,13 @@ pnpm plop component
 4. cd into the app you want to add the package to and use the `pnpm add` command
 ```
 cd apps/docs
-pnpm add @packages/ui
+pnpm add @oneezy/ui
 ```
 
 > *pnpm adds the workspace at the bottom of your `docs/package.json`*
 ```json
 "dependencies": {
-  "@packages/ui": "workspace:*"
+  "@oneezy/ui": "workspace:*"
 }
 ```
 
@@ -191,7 +191,7 @@ i.e.
     "dependencies": {
         "@packages/config": "workspace:*",
         "@packages/metadata": "workspace:*",
-        "@packages/ui": "workspace:*"
+        "@oneezy/ui": "workspace:*"
     }
 }
 ```

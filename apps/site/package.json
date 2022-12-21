@@ -21,7 +21,7 @@
   "dependencies": {
     "@packages/config": "workspace:*",
     "@packages/metadata": "workspace:*",
-    "@packages/ui": "workspace:*",
+    "@oneezy/ui": "workspace:*",
     "svelte-accessible-accordion": "^2.1.0",
     "svrollbar": "^0.12.0"
   },

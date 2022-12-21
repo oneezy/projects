@@ -21,11 +21,11 @@ const config = {
 		adapter: adapter()
 	},
   
-  package: {
-    dir: "./packages/ui",
-    files: (filepath) => !filepath.includes("story"),
+  // package: {
+  //   dir: "../../packages/ui",
+  //   files: (filepath) => !filepath.includes("story"),
     // files: (filepath) => !filepath.match(/story|images/)
-  }
+  // }
 };
 
 export default config;

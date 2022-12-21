@@ -1,5 +1,5 @@
 <script>
-  import { Section, Container, Title, Accordion, AccordionItem } from '@packages/ui';
+  import { Section, Container, Title, Accordion, AccordionItem } from '@oneezy/ui';
   import { onMount } from 'svelte';
   import { faqs } from '../stores/faqs.js';
 </script>

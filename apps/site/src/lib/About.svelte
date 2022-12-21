@@ -1,6 +1,6 @@
 <script>
   import  { APP_NAME } from '@packages/metadata';
-  import { Section, Container, Content, Title, Button } from '@packages/ui';
+  import { Section, Container, Content, Title, Button } from '@oneezy/ui';
 </script>
 
 <Section id="about" class="min-h-screen grid overflow-hidden">

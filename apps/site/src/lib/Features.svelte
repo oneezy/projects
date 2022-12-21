@@ -1,5 +1,5 @@
 <script>
-  import { Section, Container, Content, Card, Title, Button, Icon } from '@packages/ui';
+  import { Section, Container, Content, Card, Title, Button, Icon } from '@oneezy/ui';
   
   const features = [
     { id: 1, icon: 'user-group',  name: 'Community Driven',       description: 'This bot was built by you... real traders. Continuously crafting features from your feedback to push crypto forward.', box: '0 0 20 20' },

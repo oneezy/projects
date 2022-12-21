@@ -1,5 +1,5 @@
 <script>
-	import { Section, Container, Content, Card, Title, Button, Icon } from '@packages/ui'
+	import { Section, Container, Content, Card, Title, Button, Icon } from '@oneezy/ui'
 
   let id
 
