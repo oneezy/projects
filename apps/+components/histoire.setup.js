@@ -1,0 +1,2 @@
+// css
+import './histoire.css';
