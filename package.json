@@ -24,6 +24,7 @@
 		"clean": "git clean -fXd",
 		"clean:un": "git clean -f -d",
 		"clean:sub": "git clean -f -X",
+    "a": "git add --recurse-submodules .",
 
 		"changeset": "changeset",
 		"version-packages": "changeset version"
