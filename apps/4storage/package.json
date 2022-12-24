@@ -22,6 +22,7 @@
 	"module": "index.js",
 	"svelte": "index.js",
   "dependencies": {
+		"@oneezy/ui": "workspace:*",
     "@packages/config": "workspace:*",
     "@packages/metadata": "workspace:*"
   },
