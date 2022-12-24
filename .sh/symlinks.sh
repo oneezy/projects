@@ -1,7 +1,12 @@
 #!/usr/bin/env sh
 
-# variables
+# add this back to package.json if you feelin froggy'
 ##################################################################
+# "postinstall": "pnpm exec ./.sh/symlinks.sh",
+
+
+##################
+# variables################################################
 MAIN="+projects"
 
 # Main App

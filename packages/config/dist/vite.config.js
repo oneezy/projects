@@ -17,7 +17,7 @@ const config = {
 		noExternal: Object.keys(pkg.dependencies || {})
 	},
   server: {
-    host: '0.0.0.0',
+    // host: '0.0.0.0',
     open: '/'
   },
 	plugins: [

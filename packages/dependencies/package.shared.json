@@ -1,6 +1,5 @@
 {
   "dependencies": {
-    "@oneezy/ui": "workspace:*",
     "@packages/config": "workspace:*",
     "@packages/metadata": "workspace:*"
   }

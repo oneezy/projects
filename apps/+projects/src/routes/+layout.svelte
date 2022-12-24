@@ -1,7 +1,7 @@
 <script>
   import { base } from '$app/paths'
 	import { mediaQuery, Intro, App, AppBar, Scrollbar, Dialog, Nav, Logo, Theme, Button, Social, Link, Icon } from '@oneezy/ui'
-	import '@oneezy/ui/app.css';
+	// import '@oneezy/ui/src/lib/app.css';
   import '$project/app.css';
 
 	const sm = mediaQuery('(min-width: 0px) and (max-width: 767px)')
