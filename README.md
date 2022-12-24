@@ -3,7 +3,15 @@ This is a test monorepo that consists of 2 `.git` repos
 - `.git` at the root `./`
 - `.git` at `./apps/+ui` (git submodule)
 
-
+```diff
+./
++ ├── .git
+  ├── apps/
+  │   ├── +projects/
+  │   └── +ui/
++ │       └── .git
+  └── packages/
+```
 ## Installation
 In order to clone this repo and it's submodules you have to use the `--recursive` flag [(see SO link)](https://stackoverflow.com/a/46774204/301250)
 ```
