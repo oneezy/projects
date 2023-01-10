@@ -4,7 +4,8 @@
   import { fade, fly } from 'svelte/transition';
 	import { APP_URL, APP_NAME, APP_SEPARATOR, APP_DESCRIPTION } from '@packages/metadata'
 	import { mediaQuery, Intro, BG, Header, Scrollbar, Dialog, Logo, Nav, Theme, Button, Social, Device, Link, Icon, Copyright } from '@oneezy/ui'
-	// import '@oneezy/ui/src/lib/app.css'
+	// import { mediaQuery, Intro, BG, Header, Scrollbar, Dialog, Logo, Nav, Theme, Button, Social, Device, Link, Icon, Copyright } from '$ui/src/lib'
+	import '$ui/lib/app.css'
 	import '$site/app.css'
 
 	const sm = mediaQuery('(min-width: 0px) and (max-width: 1024px)')
@@ -12,7 +13,7 @@
   
   let links = [
     { label: 'home',      href: `#home`},
-    { label: 'features',  href: `#features`},
+    { label: 'features',  href: `#features`}
     { label: 'pricing',   href: `#pricing`},
     { label: 'about',     href: `#about`},
     { label: 'FAQ',       href: `#faq`},
