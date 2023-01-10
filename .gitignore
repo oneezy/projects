@@ -52,7 +52,7 @@ yarn-error.log*
 # ignore build files
 .travis.yml
 todo
-.svelte-kit/
+.svelte-kit
 .next/
 out/
 build
@@ -81,5 +81,3 @@ vitebook/.vitebook/dist
 !packages/libs/*/dist/
 !packages/utils/*/dist/
 !packages/*/dist/
-
-!apps/bookit/package
