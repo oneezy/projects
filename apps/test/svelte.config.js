@@ -7,8 +7,6 @@ const config = {
   kit: {
     adapter: adapter(),
     alias: {
-      $ui: resolve('../../apps/+ui/src'),
-      // $lib: resolve('../../apps/+ui/src/lib/index.js'),
       '@oneezy/ui': resolve('../../apps/+ui/src/lib/'),
     },
   },
