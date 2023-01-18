@@ -12,8 +12,8 @@ const config = {
 
       // Components 
       $ui: resolve('../../apps/+ui/src'),
-      // $lib: resolve('../../apps/+ui/src/lib/index.js'),
-      '@oneezy/ui': resolve('../../apps/+ui/src/lib/index.js'),
+      // $ui: resolve('../../apps/+ui/src/lib/index.js'),
+      // '@oneezy/ui': resolve('../../apps/+ui/src/lib/index.js'),
 
       // Apps (plop added)
       $site: resolve('../../apps/site/src')

@@ -4,18 +4,19 @@ import adapter from "@sveltejs/adapter-auto";
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
+	// preprocess: vitePreprocess(),
+	preprocess: preprocess({
+    postcss: true,
+	}),
+
   kit: {
     adapter: adapter(),
     alias: {
-      '@oneezy/ui': resolve('../../apps/+ui/src/lib/'),
+      $ui: resolve('../+ui/src/lib'),
+      '@oneezy/ui': resolve('../+ui/src/lib'),
     },
   },
-
-  preprocess: [
-    preprocess({
-      postcss: true,
-    }),
-  ],
+  
 };
 
 export default config;

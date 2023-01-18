@@ -9,9 +9,11 @@
 		"postinstall": "svelte-kit sync",
     "clean": "git clean -fXd"
   },
-  "dependencies": {
-    "@oneezy/ui": "workspace:*"
-  },
+	"dependencies": {
+		"@oneezy/ui": "workspace:*",
+		"@packages/config": "workspace:*",
+		"@packages/metadata": "workspace:*"
+	},
   "devDependencies": {
     "@sveltejs/adapter-auto": "^1.0.0",
     "@sveltejs/kit": "^1.0.0",

@@ -32,11 +32,11 @@ The goal is to successfully have a shared `@oneezy/ui` component lib that can be
 - [x] Update Sveltekit to `1.0.0`
 - [x] Combine Histoire + Sveltekit 
 - [x] Make `apps/+ui` **(@oneezy/ui)** histoire app + component lib `(pnpm dev --filter @oneezy/ui)`
-- [x] Make `apps/+ui` **(@oneezy/ui)** import from the `$lib` alias `(apps/+ui/src/lib)` instead of `@oneezy/ui` (because packages can't depend on themselves...doh!)
+- [x] Make `apps/+ui` **(@oneezy/ui)** import from the `$ui` alias `(apps/+ui/src/lib)` instead of `@oneezy/ui` (because packages can't depend on themselves...doh!)
 - [ ] Make all `apps/**` **(@apps/some-app)** with the exception of `apps/+ui`**(@oneezy/ui)** import components from the `@oneezy/ui` workspace
 ```js
 // apps/+ui
-import { Button } from '$lib'
+import { Button } from '$ui'
 
 // apps/** ... (BUT NOT apps/+ui !)
 import { Button } from '@oneezy/ui'
