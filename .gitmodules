@@ -1,3 +1,4 @@
 [submodule "apps/+ui"]
 	path = apps/+ui
 	url = https://github.com/oneezy/ui.git
+	branch = main
