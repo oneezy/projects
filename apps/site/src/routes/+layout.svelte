@@ -66,7 +66,7 @@
     <slot />
     <footer class="container mx-auto p-4 lg:p-8">
       <Social />
-      <Copyright>Site™</Copyright>
+      <Copyright>Projects</Copyright>
     </footer>
   </div>
 </Intro>
