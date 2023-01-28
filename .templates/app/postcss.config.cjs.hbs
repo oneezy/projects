@@ -1,4 +1,4 @@
-const postcssConfig = require('@packages/config/postcssConfig');
+const postcssConfig = require('@oneezy/ui/postcss.config.cjs');
 
 const config = {
   ...postcssConfig

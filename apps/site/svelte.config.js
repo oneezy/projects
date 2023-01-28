@@ -1,14 +1,9 @@
-import { resolve } from 'path';
-import preprocess from "svelte-preprocess";
 import adapter from "@sveltejs/adapter-auto";
+import { resolve } from 'path';
+import { vitePreprocess } from '@sveltejs/kit/vite';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	// preprocess: vitePreprocess(),
-	preprocess: preprocess({
-    postcss: true,
-	}),
-
   kit: {
     adapter: adapter(),
     alias: {
@@ -16,7 +11,8 @@ const config = {
       '@oneezy/ui': resolve('../+ui/src/lib'),
     },
   },
-  
+
+  preprocess: vitePreprocess(),
 };
 
 export default config;
