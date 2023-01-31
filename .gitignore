@@ -2,6 +2,7 @@
 # Ignore
 ###################################################################################################################### 
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio, VSCode
+.temp
 
 *.iml
 

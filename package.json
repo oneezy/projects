@@ -10,6 +10,9 @@
 		"url": "https://github.com/oneezy/projects.git"
 	},
 	"scripts": {
+		"start": "run-p start:4storage start:ui",
+		"start:ui": "pnpm dev --filter @oneezy/ui",
+		"start:4storage": "pnpm dev --filter @apps/4storage",
 		"preinstall": "pnpm exec inherit -u",
 		"dev": "turbo run dev --parallel",
 		"build": "turbo run build --parallel",
@@ -30,16 +33,17 @@
 	"type": "module",
 	"devDependencies": {
 		"@changesets/cli": "^2.26.0",
-		"@commitlint/cli": "^17.3.0",
-		"@commitlint/config-conventional": "^17.3.0",
-    "@packages/inherit": "workspace:*",
+		"@commitlint/cli": "^17.4.2",
+		"@commitlint/config-conventional": "^17.4.2",
+		"@packages/inherit": "workspace:*",
 		"autoprefixer": "^10.4.13",
-		"husky": "^8.0.2",
+		"husky": "^8.0.3",
 		"lint-staged": "^12.5.0",
+		"npm-run-all": "^4.1.5",
 		"plop": "^3.1.1",
-		"prettier": "^2.8.1",
-		"turbo": "latest",
-		"vite": "^4.0.3"
+		"prettier": "^2.8.3",
+		"turbo": "^1.7.0",
+		"vite": "^4.0.4"
 	},
 	"packageManager": "pnpm@7.25.1"
 }

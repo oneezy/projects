@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+
+    /* 
+    You can overwrite base styles here to create your own theme
+    The original css is located at: apps/+ui/src/lib/app.css
+    */
+
+    /* fonts
+    ************************************************************/
+    --font-sans:  "Custom Sans Font";
+    --font-serif: "Custom Serif Font";
+    --font-mono:  "Custom Monospace Font";
+
+    /* brand
+    ******************************************************************/
+    --color-brand:           255 203 10;    /* #ffcb0a / yellow */
+    --color-brand-primary:   255 203 10;    /* #ffcb0a / yellow */
+    --color-brand-secondary: 47 47 47;      /* #2f2f2f / gray   */
+    
+    /* lite
+    ******************************************************************/
+    --color-lite:            255 255 255;   /* white     */
+    --color-lite-primary:    255 255 255;   /* white     */
+    --color-lite-secondary:  148 163 184;   /* slate-400 */
+    --color-lite-dim:        100 116 139;   /* slate-500 */
+  
+    /* dark
+    ******************************************************************/
+    --color-dark:            0 0 0;         /* black     */
+    --color-dark-primary:    0 0 0;         /* black     */
+    --color-dark-secondary:  100 116 139;   /* slate-500 */
+    --color-dark-dim:        148 163 184;   /* slate-400 */
+  }
+}
+
+.text--primary {
+  @apply text-white
+}
+.text--brand {
+  @apply text-brand;
+}
+.fill--primary {
+  @apply fill-white;
+}
+.border--primary {
+  @apply border-white
+}
