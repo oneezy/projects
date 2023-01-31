@@ -31,7 +31,7 @@
   <meta property="og:image:height" content="630"/>
   <meta property="og:title" content="4 Storage Solutions"/>
   <meta property="og:description" content="Call us to check availability! (409)227-4444"/>
-  <meta property="og:image" content="https://4storagesolutions.com/opengraph.png"/>
+  <meta property="og:image" content="https://4storagesolutions.com/social/og.png"/>
 </svelte:head>
 
 {#if $lg}
