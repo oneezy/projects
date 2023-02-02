@@ -12,19 +12,20 @@
   ]
 
   let button1 = 'tel:4092274444'
-  let button2 = 'https://www.google.com/maps/dir/30.0817296,-94.1616153/30.38264,-94.21579/@30.2290924,-94.3467061,11z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0'
+  // let button2 = 'https://www.google.com/maps/dir/30.0817296,-94.1616153/30.38264,-94.21579/@30.2290924,-94.3467061,11z/data=!3m1!4b1!4m4!4m3!1m1!4e1!1m0'
+  let button2 = 'https://www.google.com/maps/dir//9604+Hwy+418+W,+Silsbee,+TX+77656/@30.3828015,-94.2507446,13z/data=!4m8!4m7!1m0!1m5!1m1!1s0x86393cbc56a986af:0x1847f2c171c180a1!2m2!1d-94.2157251!2d30.3827321'
 </script>
 
 
 <Section class="h-full relative {$$props.class || ''}">
-  <Img src="/photos/4storage-building.jpg" bg="cover" scrim="0.6" position="left" />
+  <Img src="/photos/4storage-building.jpg" bg="cover" scrim="0.6" position="left" class="w-full" />
   <Container class="h-full">
-    <Content class="h-screen flex flex-col items-center justify-around gap-4 py-20">
+    <Content class="min-h-screen flex flex-col items-center justify-around gap-4 py-20">
 
       <h1 class="text-black dark:text-white text-4xl font-bold sr-only"><slot>{name}</slot></h1>
     
       <div class="flex flex-col items-center">
-        <Logo class="w-10/12 " hero />
+        <Logo class="w-11/12 lg:w-10/12" hero />
         
         <h2 class="inline-block text-white text-center font-medium tracking-wide
             text-[5.6vw] 
