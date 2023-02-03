@@ -19,9 +19,9 @@
 </script>
 
 <svelte:head>
-  <title>4 Storage Solutions | Call (409)227-4444</title>
+  <title>4 Storage Solutions | Call (409) 227-4444</title>
   <link rel="canonical" href="https://4storagesolutions.com/"/>
-  <meta name="description" content="Call us to check availability! (409)227-4444"/>
+  <meta name="description" content="Store your stuff at 4 Storage & Wholesale Solutions! Visit 9604 Hwy 418 W, Silsbee, TX. 24/7 security, Climate Controlled, and unbeatable deals. When you need it Stored or Sold, Trust the Black and Gold! Call Today! (409) 227-4444"/>
 
   <meta property="og:locale" content="en_US" />
   <meta property="og:type" content="website"/>
@@ -29,8 +29,8 @@
   <meta property="og:site_name" content="4Storage"/>
   <meta property="og:image:width" content="1200"/>
   <meta property="og:image:height" content="630"/>
-  <meta property="og:title" content="4 Storage Solutions"/>
-  <meta property="og:description" content="Call us to check availability! (409)227-4444"/>
+  <meta property="og:title" content="4 Storage Solutions | Call (409) 227-4444"/>
+  <meta property="og:description" content="Store your stuff at 4 Storage & Wholesale Solutions! Visit 9604 Hwy 418 W, Silsbee, TX. 24/7 security, Climate Controlled, and unbeatable deals. When you need it Stored or Sold, Trust the Black and Gold! Call Today! (409) 227-4444"/>
   <meta property="og:image" content="https://4storagesolutions.com/social/og.png"/>
 </svelte:head>
 
